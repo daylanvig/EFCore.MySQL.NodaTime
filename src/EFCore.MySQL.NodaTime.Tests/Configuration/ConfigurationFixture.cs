@@ -3,13 +3,20 @@ using System;
 
 namespace EntityFrameworkCore.MySQL.NodaTime.Tests.Configuration;
 
+/// <summary>
+/// Singleton provider for accessing application configuration values
+/// </summary>
 public class ConfigurationFixture
 {
-    private const string CONNECTION_STRING_KEY = "Default";
+    private static readonly Lazy<ConfigurationFixture> _instance = new(() => new ConfigurationFixture());
+    public static ConfigurationFixture Instance => _instance.Value;
 
+    #region Keys
+    private const string CONNECTION_STRING_KEY = "Default";
+    #endregion
     private readonly IConfiguration _configuration;
 
-    public ConfigurationFixture()
+    private ConfigurationFixture()
     {
         _configuration = CreateConfiguration();
     }
