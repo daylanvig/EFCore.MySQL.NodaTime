@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCore.MySQL.NodaTime", "EFCore.MySQL.NodaTime\EFCore.MySQL.NodaTime.csproj", "{9976A420-16DE-4365-AEE1-36AF518AB96C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameworkCore.MySQL.NodaTime", "EFCore.MySQL.NodaTime\EntityFrameworkCore.MySQL.NodaTime.csproj", "{9976A420-16DE-4365-AEE1-36AF518AB96C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore.MySQL.NodaTime.Tests", "EFCore.MySQL.NodaTime.Tests\EFCore.MySQL.NodaTime.Tests.csproj", "{44AB0588-AE1F-4BBE-830B-FE9D9E8C3B2F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkCore.MySQL.NodaTime.Tests", "EFCore.MySQL.NodaTime.Tests\EntityFrameworkCore.MySQL.NodaTime.Tests.csproj", "{44AB0588-AE1F-4BBE-830B-FE9D9E8C3B2F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
